@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- signup14-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Multipurpose HTML5 Business Template">
+    <meta name="author" content="Shreethemes">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <title>Alita - A Responsive Multipurpose HTML Template</title>
+
+    <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- Magnificpopup Css -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/bootstrap.min.css')}}css/magnific-popup.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('static', filename='css/materialdesignicons.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename='css/fontawesome.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename='css/pe-icon-7-stroke.css')}}" rel="stylesheet">
+
+    <!--Slider-->
+        <link rel="stylesheet" href="{{url_for('static', filename='css/pe-icon-7-stroke.css')}}css/slick.css"/> 
+    <link rel="stylesheet" href="{{url_for('static', filename='css/pe-icon-7-stroke.css')}}css/slick-theme.css"/> 
+
+    <!-- Custom styles for this template -->
+    <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename='css/menu.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename='css/default.css')}}" rel="stylesheet">
+
+</head>
+
+    <body>
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Bar-->
+        <section class="bg-home" style="background-image: url('images/home/bg-login.jpg');">
+            <div class="bg-overlay"></div>
+            <div class="home-center">
+                <div class="home-desc-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="bg-white p-30 rounded box-shadow">
+                                    <div class="text-center">
+                                        <div class="spacer-15"></div>
+                                    </div>
+                                    <form class="login-form" action="createaccount" method="POST" >
+                                        <div class="row">
+                                           
+                                            <div class="col-lg-12 mt-2">
+                                                <label class="">Email</label>
+                                                <input type="email" class="form-control" id="email" placeholder="Email" name="email" required="">
+                                            </div>
+                                            <div class="col-lg-12 mt-2">
+                                                    <label class="">Password</label>
+                                                <input type="password" class="form-control" placeholder="Password" name="password" required="">
+                                            </div>
+                                          
+                                            <div class="col-lg-12 mt-2">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1">I Accept <a href="#">Terms And Condition</a></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 mt-4 mb-3">
+                                                <button class="btn btn-custom w-100">Register</button>
+                                            </div>
+                                            <div class="mx-auto">
+                                                <p class="mb-0 mt-2"><small class="text-dark mr-2">Already have an account ?</small> <a href="login.html" class="text-dark font-weight-bold">Sign in</a></p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HOME END--> 
+
+         <!-- js placed at the end of the document so the pages load faster -->
+         <script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+         <script src="{{url_for('static', filename='js/popper.min.js')}}"></script>
+         <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+         <!-- Portfolio -->
+         <script src="{{url_for('static', filename='js/jquery.magnific-popup.min.js')}}"></script>
+         <script src="{{url_for('static', filename='js/isotope.js')}}"></script>
+         <!-- Carousel -->
+         <script src="{{url_for('static', filename='js/slick.min.j')}}s"></script> 
+         <script src="{{url_for('static', filename='js/slick.init.js')}}"></script>
+         <!--custom script-->
+         <script src="{{url_for('static', filename='js/app.js')}}"></script>
+
+    </body>
+
+
+<!-- signup14-->
+</html>
